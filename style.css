@@ -1,0 +1,35 @@
+* { box-sizing: border-box;
+}
+.container { 
+    border: 4px solid rgb(246, 6, 6);
+padding: 24px 24px 0 24px;
+
+}
+    .box{ 
+        border: 4px solid rgb(26, 2, 2);
+        margin-bottom: 24px;
+    }
+    .box-large { width: 45%;}
+
+    .box-tiny{ 
+        height: 50px;
+        width: 30%;
+    }
+   
+    .box-wrapper { 
+        width: 45%;
+    }
+    .tiny-wrapper{ 
+    justify-content: space-between;
+        display: flex;
+    }
+    .box-small{ 
+        height: 50px;
+    }
+    .row{ 
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        display: flex;
+        justify-content: space-between;
+    }
